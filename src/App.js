@@ -1,5 +1,6 @@
 import axios from "axios";
 import "./styles.css";
+//.get("url")でデータ取得
 //then:取得後に実行する関数書く、catch:エラー時に実行する関数を書く
 export default function App() {
   const onClickUsers = () => {
